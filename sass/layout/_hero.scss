@@ -8,11 +8,11 @@
   padding: 200px 0px;
 }
 
-.team-background {
-  background-color: var(--background-color-lightgrey);
-}
+// .team-background {
+//   background-color: var(--background-color-lightgrey);
+// }
 
-.hero-title {
+.hero__title {
   font-family: Roboto, sans-serif;
   color: var(--white-text-color);
   text-transform: uppercase;
@@ -28,7 +28,7 @@
   width: 696px;
 }
 
-.hero-button {
+.hero__button {
   color: var(--white-text-color);
   background-color: var(--accent-color);
   font-weight: 700;

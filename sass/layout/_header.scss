@@ -1,4 +1,4 @@
-.page-header {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -8,7 +8,7 @@
   height: 80px;
 }
 
-.nav-list {
+.nav {
   font-family: Roboto, sans-serif;
   display: flex;
   color: var(--primaty-text-color);
@@ -19,7 +19,7 @@
   margin: 0;
 }
 
-.nav-item {
+.nav__item {
   position: relative;
   margin-right: 50px;
 
@@ -28,7 +28,7 @@
   }
 }
 
-.nav-link {
+.nav__link {
   color: var(--primaty-text-color);
   display: block;
   text-decoration: none;
@@ -70,7 +70,7 @@
   height: 80px;
 }
 
-.site-contact-item {
+.site-contact__item {
   margin-right: 30px;
 
   &:last-child {
@@ -78,7 +78,7 @@
   }
 }
 
-.site-contact-link {
+.site-contact__link {
   display: flex;
   font-family: Roboto, sans-serif;
   text-decoration: none;
@@ -99,7 +99,7 @@
   }
 }
 
-.site-contact-icon {
+.site-contact__icon {
   margin-right: 10px;
   fill: currentColor;
   height: 80px;

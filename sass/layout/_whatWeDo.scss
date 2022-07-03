@@ -1,20 +1,19 @@
-.whatwedo-head {
-  /* font-family: Roboto, sans-serif; */
+.whatwedo {
   text-align: center;
   margin-bottom: 50px;
 }
 
-.whatwedo-list {
+.whatwedo__list {
   margin: 0;
   display: flex;
   justify-content: space-between;
 }
 
-.whatwedo-link {
+.whatwedo__link {
   position: relative;
 }
 
-.whatwedo-overlay {
+.whatwedo__overlay {
   display: flex;
   position: absolute;
   width: 100%;
@@ -25,7 +24,7 @@
   align-items: center;
 }
 
-.overlay-text {
+.whatwedo__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

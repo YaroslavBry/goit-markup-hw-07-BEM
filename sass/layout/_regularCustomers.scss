@@ -1,4 +1,4 @@
-.customers-head {
+.customers__head {
   margin-bottom: 50px;
 }
 
@@ -9,13 +9,13 @@
   margin: 0;
 }
 
-.customers-item {
+.customers__item {
   width: 170px;
   height: 92px;
   color: var(--accent-color);
 }
 
-.customers-link {
+.customers__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,9 @@
   }
 }
 
-.customers-icon {
-  height: 100%;
+.customers__icon {
+  width: 106px;
+  height: 60px;
+  // height: 100%;
   fill: currentColor;
 }

@@ -2,18 +2,18 @@
   padding-bottom: 0px;
 }
 
-.benefit-list {
+.benefits {
   margin: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 
-.benefit-item {
+.benefits__item {
   max-width: 270px;
 }
 
-.befefit-back {
+.benefits__back {
   display: block;
   width: 270px;
   height: 120px;
@@ -24,21 +24,21 @@
   background-repeat: no-repeat;
   background-size: 70px 70px;
 
-  &.antenna {
+  &--antenna {
     background-image: url(../images/benefit1.svg);
   }
-  &.clock {
+  &--clock {
     background-image: url(../images/benefit2.svg);
   }
-  &.laptop {
+  &--laptop {
     background-image: url(../images/benefit3.svg);
   }
-  &.astronaut {
+  &--astronaut {
     background-image: url(../images/benefit4.svg);
   }
 }
 
-.benefit-title {
+.benefits__title {
   color: var(--primaty-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -48,7 +48,7 @@
   margin-bottom: 10px;
 }
 
-.benefit-desctription {
+.benefits__desctription {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 14px;

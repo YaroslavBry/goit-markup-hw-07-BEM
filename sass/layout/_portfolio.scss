@@ -11,11 +11,11 @@
   margin-bottom: 50px;
 }
 
-.portfolio-li {
+.portfolio-nav__li {
   margin-right: 8px;
 }
 
-.radiobutton-portfolio {
+.portfolio-nav__radiobutton {
   display: block;
   font-family: Roboto, sans-serif;
   color: var(--primaty-text-color);
@@ -42,14 +42,14 @@
   }
 }
 
-.portfolio-content {
+.portfolio-card__content {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.portfolio-list {
+.portfolio-collection {
   color: var(--primaty-text-color);
   list-style: none;
   text-decoration: none;
@@ -62,7 +62,7 @@
   margin: 0;
 }
 
-.portfolio-item {
+.portfolio-card {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
@@ -72,7 +72,7 @@
   }
 }
 
-.portfolio-link {
+.portfolio-card__link {
   display: inline-block;
   transition: box-shadow 250ms cubic-bezier(var(--cybic-parameters));
 
@@ -82,12 +82,12 @@
   }
 }
 
-.portfolio-thumb {
+.portfolio-card__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-picture {
+.portfolio-card__picture {
   z-index: 2;
   .p {
     display: block;
@@ -96,7 +96,7 @@
   }
 }
 
-.portfolio-overley {
+.portfolio-card__overley {
   position: absolute;
   top: 0;
   left: 0;
@@ -107,13 +107,13 @@
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(var(--cybic-parameters));
 
-  .portfolio-link:hover &,
-  .portfolio-link:focus & {
+  .portfolio-card__link:hover &,
+  .portfolio-card__link:focus & {
     transform: translateY(0);
   }
 }
 
-.portfolio-title {
+.portfolio-card__title {
   font-family: Roboto, sans-serif;
   color: var(--primaty-text-color);
   font-weight: 700;
@@ -123,16 +123,16 @@
   margin-bottom: 4px;
 }
 
-.portfolio-description {
+.portfolio-card__description {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
-.picture-description {
+.portfolio-card__overley-text {
   position: absolute;
-  content: "";
+  // content: "";
   top: 0;
   left: 0;
   padding: 63px 24px;
